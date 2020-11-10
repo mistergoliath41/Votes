@@ -1,0 +1,18 @@
+votes:
+  interval: 10800
+  quantity: 22
+  server_name: "MySpigotServer"
+
+vote_url:
+  rpg_paradize: "http://rpg-paradize.com"
+
+messages:
+  prefix: "&f[&cVotes&f] "
+  click_here_to_vote: "&6Cliquez-ici pour voter: &9&n%url%"
+  type_vote_command: "&6Quand vous aurez récupéré le Out, tapez la commande &e/vote <out>&6."
+  you_cant_vote: "&cVous ne pourrez voter que dans &e%time%&c."
+  vote_time_reset: "&aL'intervalle d'utilisation de la commande &e/vote <out> &aà été réinitialisée pour le joueur &e%player% &a!"
+  you_can_now_vote: "&cVous pouvez à nouveau utiliser la commande &e/vote <out>&c."
+  you_got_a_reward: "&aVous venez de recevoir &e%quantity% &afioles d'XP."
+  wrong_out: "&cLe Out que vous avez tapé n'est pas valide..."
+  permission_denied: "&cVous n'avez pas la permission d'effectuer ceci !"

@@ -1,0 +1,8 @@
+main: fr.mistergoliath.votes.Main
+name: Votes
+author: mistergoliath
+version: 1.0
+commands:
+  vote:
+    description: Main command of the Votes plugin.
+    aliases: [v]
