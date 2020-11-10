@@ -16,7 +16,8 @@ public class Main extends JavaPlugin {
 	private File defaultConfigFile;
 	private VoteManager kv = new VoteManager();
 	
-	public static void main(String[] args) {
+	//These lines are only for testing the RpgAPI code.
+	/*public static void main(String[] args) {
 		RpgAPI rpgapi = new RpgAPI("pactify");
 		try {
 			System.out.println(rpgapi.getOut());
@@ -24,7 +25,7 @@ public class Main extends JavaPlugin {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-	}
+	}*/
 	
 	@Override
 	public void onEnable() {
