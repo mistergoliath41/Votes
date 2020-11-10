@@ -7,7 +7,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import fr.mistergoliath.votes.annotation.APIInfos;
+import fr.mistergoliath.votes.annotations.APIInfos;
 
 @APIInfos(baseUrl="https://www.rpg-paradize.com/?page=topsite&group=31&find=")
 public class RpgAPI {

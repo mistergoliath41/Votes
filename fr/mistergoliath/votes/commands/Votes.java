@@ -79,7 +79,7 @@ public class Votes implements CommandExecutor {
 				ItemMeta im = is.getItemMeta();
 				im.setDisplayName("§6RPG Paradize");
 				is.setItemMeta(im);
-				inv.setItem(1, is);
+				inv.setItem(4, is);
 				p.openInventory(inv);
 				return true;
 			}
